@@ -30,17 +30,6 @@ src/
   index.css     Tailwind import + design tokens (@theme block)
 ```
 
-## Content to swap before launch
-
-- **Portrait images** — Hero and About currently use `placehold.co`
-  placeholders. Replace the `src` in `src/components/Hero.jsx` and
-  `src/components/About.jsx` with real photos.
-- **Contact links** — update the LinkedIn URL, email address, and WhatsApp
-  number in `src/components/Contact.jsx` and `src/components/Footer.jsx`.
-- **Contact form submission** — the form currently shows a confirmation
-  state on submit but doesn't send data anywhere. Wire it to your email
-  service, form backend, or API of choice (e.g. Formspree, a serverless
-  function, or your own endpoint) inside `handleSubmit` in `Contact.jsx`.
 
 ## Design tokens
 
