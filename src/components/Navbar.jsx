@@ -37,9 +37,16 @@ export default function Navbar() {
       <nav className="container-page flex items-center justify-between">
         <a
           href="#top"
-          className="font-display text-lg tracking-tight text-ink"
+          className="flex items-center justify-center rounded-lg px-2 py-1"
         >
-          The Lawrence Methods
+          <img
+            src="/images/logo.jpeg"
+            alt="The Lawrence Methods"
+            className="h-8 w-auto object-contain sm:h-10"
+          />
+          <span className="font-display text-lg tracking-tight text-ink pl-2">
+            The Lawrence Methods
+          </span>
         </a>
 
         <div className="hidden md:flex items-center gap-9">

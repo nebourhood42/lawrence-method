@@ -146,7 +146,7 @@ export default function Hero() {
             className="relative aspect-[4/5] w-full bg-gradient-to-br from-rust-tint via-tint to-surface border border-line overflow-hidden"
           >
             <img
-              src="/favour.jpeg"
+              src="/images/favour-pic-1.jpeg"
               alt="Portrait of Favour Lawrence"
               className="w-full h-full object-cover mix-blend-multiply"
             />

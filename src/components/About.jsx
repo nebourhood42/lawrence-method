@@ -29,7 +29,7 @@ export default function About() {
             />
             <div className="relative aspect-[4/5] w-full bg-gradient-to-br from-tint via-rust-tint to-surface border border-line overflow-hidden">
               <img
-                src="/favour.jpeg"
+                src="/images/favour-pic-2.jpeg"
                 alt="Favour Lawrence, working"
                 className="w-full h-full object-cover mix-blend-multiply"
               />
