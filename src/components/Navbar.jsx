@@ -31,23 +31,15 @@ export default function Navbar() {
       className={`fixed top-0 inset-x-0 z-50 transition-all duration-300 ${
         scrolled
           ? "bg-paper/90 backdrop-blur border-b border-line py-3"
-          : "bg-transparent border-b border-transparent py-6"
+          : "bg-transparent border-b border-transparent py-4"
       }`}
     >
       <nav className="container-page flex items-center justify-between">
-        <a
-          href="#top"
-          className="flex items-center justify-center rounded-lg px-2 py-1"
-        >
-          <img
-            src="/images/logo.jpeg"
-            alt="The Lawrence Methods"
-            className="h-8 w-auto object-contain sm:h-10"
-          />
-          <span className="font-display text-lg tracking-tight text-ink pl-2">
-            The Lawrence Methods
-          </span>
-        </a>
+        <img
+          src="/images/logo.png"
+          alt="The Lawrence Methods"
+          className="h-24 w-auto object-contain sm:h-28"
+        />
 
         <div className="hidden md:flex items-center gap-9">
           {links.map((link) => (
